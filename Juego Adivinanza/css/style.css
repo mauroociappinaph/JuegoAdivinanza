@@ -1,0 +1,93 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+input {
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 18px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 5px 10px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3E8E41;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#timer {
+  color: red;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 36px;
+  }
+  input, button {
+    font-size: 16px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+
+/* Estilos para pantallas medianas */
+@media (min-width: 601px) and (max-width: 900px) {
+  h1 {
+    font-size: 48px;
+  }
+  input, button {
+    font-size: 20px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+
+/* Estilos para pantallas grandes */
+@media (min-width: 901px) {
+  h1 {
+    font-size: 60px;
+  }
+  input, button {
+    font-size: 24px;
+  }
+  p {
+    font-size: 24px;
+  }
+}
